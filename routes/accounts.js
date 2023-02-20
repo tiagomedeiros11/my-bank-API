@@ -66,9 +66,54 @@ router.delete('/:id', async (req, res) => {
         res.send("Conta removida com sucesso");
         res.end();
     } catch (error) {
-        res.status(400).send({error: error.message})
+        res.status(400).send({error: error.message});
     }
-})
+});
+
+
+//put request que atualiza todos os dados da conta
+router.put('/', async (req, res) => {
+    try {
+        //recebe os dados do body da requisição
+        let account = req.body;
+        //recebe a leitura do arquivo accounts.json no formato JSON
+        const data = JSON.parse(await readFile("accounts.json"));
+        //recebe o indice do array de accounts que tem o id a ser atualizado
+        const index = data.accounts.findIndex(conta => conta.id === account.id);
+        //indice do array do acconuts localizado agora é o valor account
+        data.accounts[index] = account;
+        //ecreve no arquivo(accounts.json) o novo valor da acconut
+        await writeFile("accounts.json", JSON.stringify(data,null, 2));
+        res.send(`O usuário ${account.name} foi atualizado com sucesso`);
+
+
+    } catch (error) {
+        res.status(400).send({error: error.message});
+    }
+});
+
+//metodo que atualiza somente o balance da conta
+router.patch('/updateBalance', async (req, res) => {
+    try {
+        let account = req.body;
+        //recebe a leitura do arquivo accounts.json no formato JSON
+        const data = JSON.parse(await readFile("accounts.json"));
+        //recebe o indice que tem o id a ser atualizado
+        const index = data.accounts.findIndex(conta => conta.id === account.id);
+        //data recebe o novo valor do balance informado
+        data.accounts[index].balance = account.balance;
+        //ecreve no arquivo(accounts.json) o novo valor do balance
+        await writeFile("accounts.json", JSON.stringify(data,null, 2));
+        //informa ao usuario que a o valor da conta foi atualizada
+        res.send(`Saldo atualizado com sucesso!!!!`);
+    } catch (error) {
+        res.status(400).send({error: error.message});
+    }
+});
+
+
+
+
 
 export default router;
 
