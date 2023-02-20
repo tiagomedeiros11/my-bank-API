@@ -6,6 +6,7 @@ const router = express.Router();
 
 // post request que insere dados ao arquivo accounts.json
 router.post('/', async (req, res) => {
+    
     try {
         let account = req.body;
         //variavel que realiza a leitura do arquivo accounts.json
