@@ -12,3 +12,83 @@
 2023-02-21T00:22:05.526Z [my-bank-api] info: GET /account
 2023-02-21T00:24:10.220Z [my-bank-api] info: API started
 2023-02-21T00:24:59.451Z [my-bank-api] info: API started
+2023-02-22T17:41:35.242Z [my-bank-api] info: API started
+2023-02-22T17:41:39.818Z [my-bank-api] info: POST /account - {"id":3,"name":"Vitor","balance":847}
+2023-02-22T17:42:03.289Z [my-bank-api] info: POST /account - {"id":4,"name":"Bruno","balance":53}
+2023-02-22T18:05:13.526Z [my-bank-api] info: API started
+2023-02-22T18:05:25.377Z [my-bank-api] error: POST /accounts -  
+2023-02-22T18:06:12.535Z [my-bank-api] info: API started
+2023-02-22T18:07:43.132Z [my-bank-api] info: API started
+2023-02-22T18:08:01.876Z [my-bank-api] info: POST /account - {"id":5,"name":"Bruno","balance":0}
+2023-02-22T18:15:13.798Z [my-bank-api] info: API started
+2023-02-22T18:16:26.708Z [my-bank-api] info: POST /account - {"id":6,"name":"Bruno","balance":0}
+2023-02-22T18:18:59.805Z [my-bank-api] info: POST /account - {"id":7,"name":"Bruno","balance":0}
+2023-02-22T18:19:09.552Z [my-bank-api] info: POST /account - {"id":8,"name":"Magnus","balance":8876}
+2023-02-22T19:18:33.127Z [my-bank-api] info: API started
+2023-02-22T19:27:13.092Z [my-bank-api] info: PUT /account - {"name":"Magnus","balance":8876,"Teste":"sadasdasd"}
+2023-02-22T19:36:55.813Z [my-bank-api] info: API started
+2023-02-22T19:39:04.785Z [my-bank-api] info: GET /account
+2023-02-22T19:39:40.591Z [my-bank-api] error: PUT /accounts - Registro nao encontrado
+2023-02-22T19:39:59.056Z [my-bank-api] info: PUT /account - {"id":2,"name":"Tiago","balance":500}
+2023-02-22T19:42:57.381Z [my-bank-api] info: API started
+2023-02-22T19:49:33.063Z [my-bank-api] info: API started
+2023-02-22T19:50:15.434Z [my-bank-api] error: PUT /accounts - Registro nao encontrado
+2023-02-22T19:50:50.497Z [my-bank-api] error: PUT /accounts - Registro nao encontrado
+2023-02-22T19:50:58.856Z [my-bank-api] info: PUT /account - {"id":3,"name":"Tiago","balance":500,"marca":"teste"}
+2023-02-22T19:52:15.543Z [my-bank-api] info: API started
+2023-02-22T19:52:19.920Z [my-bank-api] info: PUT /account - "Tiago"
+2023-02-22T19:53:34.669Z [my-bank-api] info: API started
+2023-02-22T19:53:35.978Z [my-bank-api] info: PUT /account - "Tiago"
+2023-02-22T19:54:11.252Z [my-bank-api] info: API started
+2023-02-22T19:54:11.552Z [my-bank-api] info: PUT /account - undefined
+2023-02-22T19:54:28.652Z [my-bank-api] info: API started
+2023-02-22T19:55:43.760Z [my-bank-api] info: PUT /account - {"id":3,"name":"Tiago","marca":"teste"}
+2023-02-22T19:57:52.640Z [my-bank-api] info: API started
+2023-02-22T19:59:10.293Z [my-bank-api] info: POST /account - {"id":9,"name":"Gomes"}
+2023-02-22T20:00:13.224Z [my-bank-api] info: POST /account - {"id":10,"name":"Gomes","balance":43897}
+2023-02-22T20:00:37.615Z [my-bank-api] info: POST /account - {"id":11,"name":"Gomes","balance":43897}
+2023-02-22T20:00:43.127Z [my-bank-api] info: POST /account - {"id":12,"name":"Gomes"}
+2023-02-22T20:02:39.321Z [my-bank-api] info: API started
+2023-02-22T20:02:39.651Z [my-bank-api] info: POST /account - {"id":13,"name":"Gomes"}
+2023-02-22T20:03:15.888Z [my-bank-api] info: API started
+2023-02-22T20:03:30.679Z [my-bank-api] info: API started
+2023-02-22T20:03:44.938Z [my-bank-api] info: POST /account - {"id":14,"name":"Gomes"}
+2023-02-22T20:04:25.770Z [my-bank-api] info: API started
+2023-02-22T20:04:27.993Z [my-bank-api] error: POST /accounts - Name e Balance são obrigatorios!!!
+2023-02-22T20:04:47.190Z [my-bank-api] info: API started
+2023-02-22T20:05:04.449Z [my-bank-api] error: POST /accounts - Name e Balance são obrigatorios!!!
+2023-02-22T20:05:24.370Z [my-bank-api] info: POST /account - {"id":15,"name":"Gomes","balance":232}
+2023-02-22T20:06:13.534Z [my-bank-api] info: API started
+2023-02-22T20:17:32.750Z [my-bank-api] info: API started
+2023-02-22T20:19:09.192Z [my-bank-api] info: PATCH /account / updateBalance - {"id":5,"balance":232}
+2023-02-22T20:19:52.774Z [my-bank-api] info: API started
+2023-02-22T20:19:59.033Z [my-bank-api] error: PATCH /accounts - Name e Balance são obrigatorios!!!
+2023-02-22T20:20:44.126Z [my-bank-api] error: PATCH /accounts - Cannot set properties of undefined (setting 'balance')
+2023-02-22T20:22:23.588Z [my-bank-api] info: API started
+2023-02-22T20:22:49.168Z [my-bank-api] info: API started
+2023-02-22T20:23:02.164Z [my-bank-api] info: PATCH /account / updateBalance - {"id":3}
+2023-02-22T20:25:13.258Z [my-bank-api] info: API started
+2023-02-22T20:25:13.994Z [my-bank-api] error: PATCH /accounts - Atualze o balance
+2023-02-22T20:25:31.936Z [my-bank-api] info: PATCH /account / updateBalance - {"id":3,"balance":32}
+2023-02-22T20:25:41.465Z [my-bank-api] info: PATCH /account / updateBalance - {"id":3,"balance":0}
+2023-02-22T20:25:46.114Z [my-bank-api] info: PATCH /account / updateBalance - {"id":3,"balance":-1}
+2023-02-22T20:26:35.576Z [my-bank-api] info: PATCH /account / updateBalance - {"id":3,"balance":-1,"name":"TESTE"}
+2023-02-22T20:28:03.705Z [my-bank-api] info: API started
+2023-02-22T20:28:03.761Z [my-bank-api] info: PATCH /account / updateBalance - {"id":3,"balance":-1,"name":"TESTE"}
+2023-02-22T20:28:15.945Z [my-bank-api] info: API started
+2023-02-22T20:28:18.077Z [my-bank-api] info: PATCH /account / updateBalance - {"id":3,"balance":-1,"name":"TESTE"}
+2023-02-22T20:28:40.683Z [my-bank-api] info: PUT /account - {"id":3,"balance":-1,"name":"Bruno"}
+2023-02-22T20:33:50.206Z [my-bank-api] info: API started
+2023-02-22T20:33:58.438Z [my-bank-api] error: PUT /accounts - Registro nao encontrado
+2023-02-22T20:34:43.680Z [my-bank-api] info: API started
+2023-02-22T20:34:43.755Z [my-bank-api] error: PUT /accounts - Registro nao encontrado
+2023-02-22T20:34:45.243Z [my-bank-api] error: PUT /accounts - Registro nao encontrado
+2023-02-22T20:34:46.150Z [my-bank-api] error: PUT /accounts - Registro nao encontrado
+2023-02-22T20:34:46.810Z [my-bank-api] error: PUT /accounts - Registro nao encontrado
+2023-02-22T20:35:29.611Z [my-bank-api] error: PATCH /accounts - Id e balance precisam ser preenchido.
+2023-02-22T20:35:44.071Z [my-bank-api] info: PATCH /account / updateBalance - {"id":1,"balance":-1,"name":"Bruno"}
+2023-02-22T20:36:10.337Z [my-bank-api] info: PATCH /account / updateBalance - {"id":1,"balance":65,"name":"Bruno"}
+2023-02-22T20:44:32.165Z [my-bank-api] info: API started
+2023-02-22T20:45:46.778Z [my-bank-api] info: API started
+2023-02-22T20:49:01.513Z [my-bank-api] info: API started
+2023-02-22T20:50:16.351Z [my-bank-api] info: API started

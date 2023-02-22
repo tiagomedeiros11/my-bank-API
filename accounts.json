@@ -1,15 +1,71 @@
 {
-  "nextId": 3,
+  "nextId": 16,
   "accounts": [
     {
       "id": 1,
       "name": "Tiago",
-      "balance": 500
+      "balance": 65
     },
     {
-      "id": 2,
-      "name": "Tia Jordana",
-      "balance": 600
+      "id": 3,
+      "name": "Bruno",
+      "balance": -1
+    },
+    {
+      "id": 4,
+      "name": "Bruno",
+      "balance": 53
+    },
+    {
+      "id": 5,
+      "name": "Bruno",
+      "balance": 232
+    },
+    {
+      "id": 6,
+      "name": "Bruno",
+      "balance": 0
+    },
+    {
+      "id": 7,
+      "name": "Bruno",
+      "balance": 0
+    },
+    {
+      "id": 8,
+      "name": "Magnus",
+      "balance": 8876
+    },
+    {
+      "id": 9,
+      "name": "Gomes"
+    },
+    {
+      "id": 10,
+      "name": "Gomes",
+      "balance": 43897
+    },
+    {
+      "id": 11,
+      "name": "Gomes",
+      "balance": 43897
+    },
+    {
+      "id": 12,
+      "name": "Gomes"
+    },
+    {
+      "id": 13,
+      "name": "Gomes"
+    },
+    {
+      "id": 14,
+      "name": "Gomes"
+    },
+    {
+      "id": 15,
+      "name": "Gomes",
+      "balance": 232
     }
   ]
 }
