@@ -1,0 +1,14 @@
+2023-02-21T00:06:58.533Z [my-bank-api] error: POST /accounts - ENOENT: no such file or directory, open 'C:\Users\Tiago\Documents\Dev\my-bank-API-clone\accounts.json'
+2023-02-21T00:10:12.223Z [my-bank-api] info: API started
+2023-02-21T00:15:32.529Z [my-bank-api] info: API started
+2023-02-21T00:18:00.712Z [my-bank-api] info: API started
+2023-02-21T00:18:05.906Z [my-bank-api] info: API started
+2023-02-21T00:18:16.501Z [my-bank-api] info: POST /account - {"id":1,"name":"Tiago","balance":500}
+2023-02-21T00:18:19.640Z [my-bank-api] info: POST /account - {"id":2,"name":"Tiago","balance":500}
+2023-02-21T00:19:31.338Z [my-bank-api] info: API started
+2023-02-21T00:19:42.371Z [my-bank-api] info: DELETE /account/3
+2023-02-21T00:20:54.247Z [my-bank-api] info: API started
+2023-02-21T00:21:58.876Z [my-bank-api] info: API started
+2023-02-21T00:22:05.526Z [my-bank-api] info: GET /account
+2023-02-21T00:24:10.220Z [my-bank-api] info: API started
+2023-02-21T00:24:59.451Z [my-bank-api] info: API started

@@ -3,13 +3,13 @@
   "accounts": [
     {
       "id": 1,
-      "name": "Neto",
-      "balance": 600
+      "name": "Tiago",
+      "balance": 500
     },
     {
       "id": 2,
       "name": "Tia Jordana",
-      "balance": 987
+      "balance": 600
     }
   ]
 }

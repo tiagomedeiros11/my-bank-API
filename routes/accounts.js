@@ -1,12 +1,13 @@
+
 import express from "express";
-import { promises as fs, read } from "fs";
-import { compileFunction } from "vm";
+import { promises as fs} from "fs";
+
 
 const { readFile, writeFile } = fs;
 const router = express.Router();
 
 // post request que insere dados ao arquivo accounts.json
-router.post('/', async (req, res) => {
+router.post('/', async (req, res, next) => {
     try {
         let account = req.body;
         //variavel que realiza a leitura do arquivo accounts.json no formato JSON
@@ -19,12 +20,13 @@ router.post('/', async (req, res) => {
         await writeFile("accounts.json", JSON.stringify(data,null, 2));
         //retorna para o usuario os valores da nova conta cadastrada
         res.send(account);
+        logger.info(`POST /account - ${JSON.stringify(account)}`);
     } catch (error) {
-        res.status(400).send({error: error.message})
+        next(error);
     }
 });
 
-router.get('/', async (req, res) => {
+router.get('/', async (req, res, next) => {
     try {
         //variavel que realiza a leitura do arquivo accounts.json no formato JSON
         const data = JSON.parse(await readFile("accounts.json"));
@@ -32,13 +34,15 @@ router.get('/', async (req, res) => {
         delete data.nextId;
         //retorna para o usuario os valores das contas cadastradas
         res.send(data);
+        logger.info("GET /account");
+
     } catch (error) {
-        res.status(400).send({error: error.message})
+        next(error);
     }
 });
 
 //get request que busca a conta por id
-router.get('/:id', async (req, res) => {
+router.get('/:id', async (req, res, next) => {
     try {
         //variavel que realiza a leitura do arquivo accounts.json no formato JSON
         const data = JSON.parse(await readFile("accounts.json"));
@@ -49,12 +53,12 @@ router.get('/:id', async (req, res) => {
         //retorna para o usuario o nome e o valor da conta solicitada
         res.send(contaIdividual);
     } catch (error) {
-        res.status(400).send({error: error.message})
+        next(error);
     }
 });
 
 
-router.delete('/:id', async (req, res) => {
+router.delete('/:id', async (req, res, next) => {
     try {
         //variavel que realiza a leitura do arquivo accounts.json no formato JSON
         const data = JSON.parse(await readFile("accounts.json"));
@@ -65,14 +69,16 @@ router.delete('/:id', async (req, res) => {
         //confirma para o usuario que a conta foi deletada
         res.send("Conta removida com sucesso");
         res.end();
+        logger.info(`DELETE /account/ ${req.params.id}`);
+
     } catch (error) {
-        res.status(400).send({error: error.message});
+        next(error);
     }
 });
 
 
 //put request que atualiza todos os dados da conta
-router.put('/', async (req, res) => {
+router.put('/', async (req, res, next) => {
     try {
         //recebe os dados do body da requisição
         let account = req.body;
@@ -85,15 +91,15 @@ router.put('/', async (req, res) => {
         //ecreve no arquivo(accounts.json) o novo valor da acconut
         await writeFile("accounts.json", JSON.stringify(data,null, 2));
         res.send(`O usuário ${account.name} foi atualizado com sucesso`);
-
+        logger.info(`PUT /account - ${JSON.stringify(account)}`);
 
     } catch (error) {
-        res.status(400).send({error: error.message});
+        next(error);
     }
 });
 
 //metodo que atualiza somente o balance da conta
-router.patch('/updateBalance', async (req, res) => {
+router.patch('/updateBalance', async (req, res, next) => {
     try {
         let account = req.body;
         //recebe a leitura do arquivo accounts.json no formato JSON
@@ -106,14 +112,16 @@ router.patch('/updateBalance', async (req, res) => {
         await writeFile("accounts.json", JSON.stringify(data,null, 2));
         //informa ao usuario que a o valor da conta foi atualizada
         res.send(`Saldo atualizado com sucesso!!!!`);
+        logger.info(`PATCH /account / updateBalance - ${JSON.stringify(account)}`);
     } catch (error) {
-        res.status(400).send({error: error.message});
+        next(error);
     }
 });
 
-
-
-
+router.use((error, req, res, next) => {
+    logger.error(`${req.method} ${req.baseUrl} - ${error.message}`);
+    res.status(500).send({error: error.message});
+});
 
 export default router;
 
