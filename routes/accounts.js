@@ -1,6 +1,7 @@
 
 import express from "express";
 import { promises as fs} from "fs";
+import { parse } from "path";
 
 
 const { readFile, writeFile } = fs;
@@ -52,7 +53,29 @@ router.get('/', async (req, res, next) => {
 });
 
 //get request que busca a conta por id
-router.get('/:id', async (req, res, next) => {
+router.get("/:name", async function getPeloNome (req, res, next) {
+    try {
+        const data = JSON.parse(await readFile("accounts.json"));
+
+        // const contas = data.accounts.map(nomeDaconta => nomeDaconta.name == req.params.name);
+
+        const contas = data.accounts.filter((nomeDaConta)=> nomeDaConta.name == req.params.name);
+
+        delete contas.id;
+        
+        
+
+        console.log(typeof(contas));
+
+        
+       res.json(contas);
+
+        
+    } catch (error) {
+        next(error);
+    }
+})
+router.get('/?/:id', async (req, res, next) => {
     try {
         //variavel que realiza a leitura do arquivo accounts.json no formato JSON
         const data = JSON.parse(await readFile("accounts.json"));
@@ -62,44 +85,17 @@ router.get('/:id', async (req, res, next) => {
         delete contaIdividual.id;
         //retorna para o usuario o nome e o valor da conta solicitada
         res.send(contaIdividual);
-    } catch (error) {
-        next(error);
-    }
-});
+        console.log(typeof(contaIdividual));
+        
 
-//get request que busca a conta por nome
-router.get('/:nome', async (req, res, next) => {
-    try {
-        //variavel que realiza a leitura do arquivo accounts.json no formato JSON
-        const data = JSON.parse(await readFile("accounts.json"));
-        //variavel que tras do data as contas por nome informado no req.params
-        const contaIdividual = data.accounts.find(contaIdividual => contaIdividual.name === (req.params.name));
-        //deleta a informação do id do cliente trazendo somente o nome e o valor da conta
-        delete contaIdividual.id;
-        //retorna para o usuario o nome e o valor da conta solicitada
-        res.send(contaIdividual);
-    } catch (error) {
-        next(error);
-    }
-});
-
-router.delete('/:id', async (req, res, next) => {
-    try {
-        //variavel que realiza a leitura do arquivo accounts.json no formato JSON
-        const data = JSON.parse(await readFile("accounts.json"));
-        //atualiza o valor do account.json trazendo deletado o id da conta informada
-        data.accounts = data.accounts.filter(contaIdividual => contaIdividual.id !== parseInt(req.params.id));
-        //sobrescreve o valor da variavel (data) com o filter realizado
-        await writeFile("accounts.json", JSON.stringify(data,null, 2));
-        //confirma para o usuario que a conta foi deletada
-        res.send("Conta removida com sucesso");
-        res.end();
-        logger.info(`DELETE /account/ ${req.params.id}`);
 
     } catch (error) {
         next(error);
     }
 });
+
+
+
 
 
 //put request que atualiza todos os dados da conta

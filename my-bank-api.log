@@ -92,3 +92,197 @@
 2023-02-22T20:45:46.778Z [my-bank-api] info: API started
 2023-02-22T20:49:01.513Z [my-bank-api] info: API started
 2023-02-22T20:50:16.351Z [my-bank-api] info: API started
+2023-02-22T22:05:14.665Z [my-bank-api] info: API started
+2023-02-22T22:07:34.293Z [my-bank-api] info: GET /account
+2023-02-22T22:07:41.081Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-22T22:07:50.770Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-22T22:09:45.508Z [my-bank-api] info: API started
+2023-02-22T22:09:52.245Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-22T22:09:58.814Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-22T22:13:15.506Z [my-bank-api] info: API started
+2023-02-22T22:13:24.472Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-22T22:13:30.174Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-22T22:14:27.890Z [my-bank-api] info: API started
+2023-02-22T22:14:31.408Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-22T22:22:47.328Z [my-bank-api] info: API started
+2023-02-22T22:56:56.730Z [my-bank-api] info: API started
+2023-02-22T22:57:03.838Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-22T22:57:53.792Z [my-bank-api] info: API started
+2023-02-22T22:57:56.654Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-22T22:57:57.785Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-22T22:58:03.405Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-22T23:00:04.048Z [my-bank-api] info: API started
+2023-02-23T00:13:47.943Z [my-bank-api] info: API started
+2023-02-23T00:13:54.210Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:13:59.520Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:14:03.436Z [my-bank-api] info: GET /account
+2023-02-23T00:14:14.098Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:15:42.610Z [my-bank-api] info: API started
+2023-02-23T00:15:57.597Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:16:31.501Z [my-bank-api] info: API started
+2023-02-23T00:17:04.411Z [my-bank-api] info: API started
+2023-02-23T00:17:41.211Z [my-bank-api] info: API started
+2023-02-23T00:17:48.484Z [my-bank-api] error: GET /accounts - Cannot set headers after they are sent to the client
+2023-02-23T00:18:03.781Z [my-bank-api] info: API started
+2023-02-23T00:19:04.766Z [my-bank-api] info: API started
+2023-02-23T00:20:35.309Z [my-bank-api] info: API started
+2023-02-23T00:20:43.246Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:21:10.979Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:23:18.697Z [my-bank-api] info: API started
+2023-02-23T00:23:21.183Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:23:22.371Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:23:22.711Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:23:23.025Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:23:23.098Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:23:42.618Z [my-bank-api] info: API started
+2023-02-23T00:23:44.422Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:24:13.507Z [my-bank-api] info: API started
+2023-02-23T00:24:24.278Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:31:21.537Z [my-bank-api] info: API started
+2023-02-23T00:31:32.395Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:32:04.516Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:32:08.545Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:32:41.581Z [my-bank-api] info: API started
+2023-02-23T00:33:04.322Z [my-bank-api] info: API started
+2023-02-23T00:33:09.232Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:33:18.087Z [my-bank-api] info: API started
+2023-02-23T00:33:19.302Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:33:34.388Z [my-bank-api] info: API started
+2023-02-23T00:33:51.196Z [my-bank-api] info: API started
+2023-02-23T00:34:32.664Z [my-bank-api] info: API started
+2023-02-23T00:34:34.357Z [my-bank-api] error: GET /accounts - Unexpected token B in JSON at position 0
+2023-02-23T00:34:56.967Z [my-bank-api] info: API started
+2023-02-23T00:34:58.699Z [my-bank-api] error: GET /accounts - Unexpected token o in JSON at position 1
+2023-02-23T00:43:52.289Z [my-bank-api] info: API started
+2023-02-23T00:45:34.216Z [my-bank-api] info: API started
+2023-02-23T00:45:39.622Z [my-bank-api] info: API started
+2023-02-23T00:45:47.374Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:46:19.278Z [my-bank-api] info: API started
+2023-02-23T00:46:22.543Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T00:46:43.446Z [my-bank-api] info: API started
+2023-02-23T00:46:46.458Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T01:12:38.728Z [my-bank-api] info: API started
+2023-02-23T01:13:07.624Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T01:18:40.391Z [my-bank-api] info: API started
+2023-02-23T01:18:59.309Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T01:19:23.165Z [my-bank-api] info: API started
+2023-02-23T01:19:24.837Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T01:19:38.955Z [my-bank-api] info: API started
+2023-02-23T01:19:40.853Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T01:19:59.691Z [my-bank-api] info: API started
+2023-02-23T01:20:03.512Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T01:20:04.495Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T01:20:09.288Z [my-bank-api] info: GET /account
+2023-02-23T01:21:56.319Z [my-bank-api] info: API started
+2023-02-23T01:22:00.690Z [my-bank-api] info: GET /account
+2023-02-23T01:22:12.591Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T01:37:58.839Z [my-bank-api] info: API started
+2023-02-23T01:38:04.887Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T01:38:31.730Z [my-bank-api] info: API started
+2023-02-23T01:38:37.427Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T01:39:30.608Z [my-bank-api] info: API started
+2023-02-23T01:40:17.630Z [my-bank-api] info: API started
+2023-02-23T01:40:20.329Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T01:40:29.449Z [my-bank-api] info: API started
+2023-02-23T01:40:32.646Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T01:41:08.711Z [my-bank-api] info: API started
+2023-02-23T01:41:11.906Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T01:41:25.595Z [my-bank-api] info: API started
+2023-02-23T01:41:32.878Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T01:42:27.772Z [my-bank-api] info: API started
+2023-02-23T01:42:30.252Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T01:43:38.806Z [my-bank-api] info: API started
+2023-02-23T01:44:04.804Z [my-bank-api] info: API started
+2023-02-23T01:44:48.508Z [my-bank-api] info: API started
+2023-02-23T01:44:53.014Z [my-bank-api] error: GET /accounts - Unexpected token u in JSON at position 0
+2023-02-23T01:45:22.818Z [my-bank-api] info: API started
+2023-02-23T01:45:25.491Z [my-bank-api] error: GET /accounts - parse is not defined
+2023-02-23T01:46:06.322Z [my-bank-api] info: API started
+2023-02-23T01:46:52.544Z [my-bank-api] info: API started
+2023-02-23T01:47:06.238Z [my-bank-api] info: API started
+2023-02-23T01:47:45.145Z [my-bank-api] info: API started
+2023-02-23T02:03:45.383Z [my-bank-api] info: API started
+2023-02-23T02:03:54.167Z [my-bank-api] info: GET /account
+2023-02-23T02:04:03.147Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:04:37.794Z [my-bank-api] info: API started
+2023-02-23T02:04:43.511Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:12:12.024Z [my-bank-api] info: API started
+2023-02-23T02:14:21.688Z [my-bank-api] info: API started
+2023-02-23T02:14:40.128Z [my-bank-api] info: API started
+2023-02-23T02:17:11.363Z [my-bank-api] info: API started
+2023-02-23T02:17:25.714Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:21:09.122Z [my-bank-api] info: API started
+2023-02-23T02:21:13.981Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:21:30.858Z [my-bank-api] info: API started
+2023-02-23T02:21:37.519Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:21:57.064Z [my-bank-api] info: API started
+2023-02-23T02:22:00.873Z [my-bank-api] info: API started
+2023-02-23T02:22:02.694Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:24:13.740Z [my-bank-api] info: API started
+2023-02-23T02:24:16.216Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:29:55.319Z [my-bank-api] info: API started
+2023-02-23T02:29:57.788Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:30:34.090Z [my-bank-api] info: API started
+2023-02-23T02:30:37.069Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:32:12.501Z [my-bank-api] info: API started
+2023-02-23T02:32:15.945Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:33:00.688Z [my-bank-api] info: API started
+2023-02-23T02:33:30.988Z [my-bank-api] info: API started
+2023-02-23T02:35:31.271Z [my-bank-api] info: API started
+2023-02-23T02:35:33.733Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:36:13.430Z [my-bank-api] info: API started
+2023-02-23T02:36:13.753Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:36:56.245Z [my-bank-api] info: API started
+2023-02-23T02:36:56.755Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:37:10.923Z [my-bank-api] info: API started
+2023-02-23T02:37:12.896Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:37:41.089Z [my-bank-api] info: API started
+2023-02-23T02:37:46.103Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:38:05.420Z [my-bank-api] info: API started
+2023-02-23T02:38:05.500Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:38:13.630Z [my-bank-api] info: API started
+2023-02-23T02:38:15.395Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:38:35.752Z [my-bank-api] info: API started
+2023-02-23T02:38:38.580Z [my-bank-api] info: API started
+2023-02-23T02:40:53.620Z [my-bank-api] info: API started
+2023-02-23T02:41:00.254Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:41:11.782Z [my-bank-api] info: API started
+2023-02-23T02:41:14.554Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:41:48.126Z [my-bank-api] info: API started
+2023-02-23T02:41:57.599Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:41:59.108Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:41:59.925Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:42:05.560Z [my-bank-api] info: API started
+2023-02-23T02:42:39.773Z [my-bank-api] info: API started
+2023-02-23T02:42:56.079Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:43:04.078Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:43:39.843Z [my-bank-api] info: API started
+2023-02-23T02:43:52.345Z [my-bank-api] info: API started
+2023-02-23T02:43:56.590Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:47:47.218Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:47:56.238Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:49:21.231Z [my-bank-api] info: API started
+2023-02-23T02:49:24.597Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:50:09.698Z [my-bank-api] info: API started
+2023-02-23T02:50:12.693Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:50:48.358Z [my-bank-api] info: API started
+2023-02-23T02:50:51.976Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:51:16.356Z [my-bank-api] info: API started
+2023-02-23T02:51:35.396Z [my-bank-api] info: API started
+2023-02-23T02:51:40.010Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:51:45.666Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:52:13.083Z [my-bank-api] info: API started
+2023-02-23T02:52:48.758Z [my-bank-api] info: API started
+2023-02-23T02:52:54.890Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:53:00.856Z [my-bank-api] info: GET /account
+2023-02-23T02:53:24.390Z [my-bank-api] info: GET /account
+2023-02-23T02:54:08.744Z [my-bank-api] info: API started
+2023-02-23T02:54:14.116Z [my-bank-api] error: GET /accounts - Cannot convert undefined or null to object
+2023-02-23T02:55:12.353Z [my-bank-api] info: API started
+2023-02-23T02:59:04.371Z [my-bank-api] info: API started
+2023-02-23T02:59:47.838Z [my-bank-api] info: API started
+2023-02-23T02:59:48.856Z [my-bank-api] error: GET /accounts - nomeDaConta is not defined
+2023-02-23T03:00:21.330Z [my-bank-api] info: API started
+2023-02-23T03:01:33.318Z [my-bank-api] info: API started
+2023-02-23T03:22:13.122Z [my-bank-api] info: API started
+2023-02-23T03:22:29.708Z [my-bank-api] info: GET /account
